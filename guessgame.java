@@ -6,7 +6,7 @@ class Game{
     public Game(){
         Random rand = new Random();
         computer = rand.nextInt(500);
-        System.out.println("Guess the Number From  1 to 500");
+        System.out.println("Guess the Number From  1 to 100");
     }
     public int computerNo(){
         return computer;
